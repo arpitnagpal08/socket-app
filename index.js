@@ -76,6 +76,6 @@ io.on('connection', function (socket) {
 
 
 // CLIENT FUNCTIONS
-const client_io = require('socket.io-client');
-const socket = client_io(`http://localhost:${port}?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEsImlhdCI6MTU1ODY3MTM2NH0.MsFIXy0KxQ7e7HVX1wPdN0G3g5s1J2avs97f1M3bkWM`);
-socket.emit("new message", 'room', { user_id: 1, message: "hey" });
+// const client_io = require('socket.io-client');
+// const socket = client_io(`http://localhost:${port}?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEsImlhdCI6MTU1ODY3MTM2NH0.MsFIXy0KxQ7e7HVX1wPdN0G3g5s1J2avs97f1M3bkWM`);
+// socket.emit("new message", 'room', { user_id: 1, message: "hey" });
